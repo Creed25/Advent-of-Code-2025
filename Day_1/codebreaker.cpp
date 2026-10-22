@@ -17,9 +17,9 @@ int main(){
 
     while(std::getline(file, line)){
         int result = 0;
-        std::cout << line << std::endl;
+        //std::cout << line << std::endl;
         int charCount = line.length();
-        std::cout << charCount << std::endl;
+        //std::cout << charCount << std::endl;
         for(int i = 1; i < charCount; ++i){
                 result = (result * 10) + (line[i] - '0');
             }
